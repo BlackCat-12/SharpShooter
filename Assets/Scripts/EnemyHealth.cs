@@ -16,9 +16,9 @@ public class EnemyHealth : MonoBehaviour
         
     }
 
-    public void TakeDamage(Weapon weapon)
+    public void TakeDamage(WeaponSO weaponso)
     {
-        currentHealth -= weapon.DamageAmount();
+        currentHealth -= weaponso.Damage;
         if (currentHealth <= 0)
         {
             Dead();
