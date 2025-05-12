@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   damage: 1
-  fireRate: 0.5
+  fireRate: 0.3
   _hitEffectPrefab: {fileID: 5635842424438274252, guid: 59a955fe0781efa4dbe80b2d7c1353a4, type: 3}
+  isAutomatic: 0
+  weaponPrefab: {fileID: 2591647882532678829, guid: 85e1cef23822ad54985ec49e4246de48, type: 3}
+  canZoom: 0
+  zoomVal: 40
+  rotateSpeed: 4
+  ammonAmount: 8

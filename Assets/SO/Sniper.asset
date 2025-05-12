@@ -15,3 +15,8 @@ MonoBehaviour:
   damage: 5
   fireRate: 1
   _hitEffectPrefab: {fileID: 5635842424438274252, guid: 59a955fe0781efa4dbe80b2d7c1353a4, type: 3}
+  isAutomatic: 0
+  weaponPrefab: {fileID: 7316018267403832496, guid: 7f734099da3529d4d9d8a7790f62037a, type: 3}
+  canZoom: 1
+  zoomVal: 10
+  rotateSpeed: 0.4

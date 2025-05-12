@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a81f36dc8df54544928d8dd7bfed6ba, type: 3}
   m_Name: Mechine Gun
   m_EditorClassIdentifier: 
-  damage: 5
-  fireRate: 0.2
+  damage: 1
+  fireRate: 0.08
   _hitEffectPrefab: {fileID: 5635842424438274252, guid: 59a955fe0781efa4dbe80b2d7c1353a4, type: 3}
+  isAutomatic: 1
+  weaponPrefab: {fileID: 7817560983410691249, guid: 2e2ec90fbd4c23a468d911144fff278b, type: 3}
+  canZoom: 0
+  zoomVal: 40
+  rotateSpeed: 4
+  ammonAmount: 64
